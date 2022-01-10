@@ -1,0 +1,43 @@
+<html>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="main.js"></script>
+<head>
+
+    <body>
+<div class="container">
+<center>
+<h3>Image Recognition</h3>
+<br><br>
+<hr>
+
+<p style="fontsize: 22px">The modle is trained to identify the following objects</p>
+<hr>
+<b class="name_of_objects">
+    Bheeni Jain
+<hr>
+</b>
+
+<label>Webcam veiw-</label>
+<div id="camera"></div>
+<br><br>
+<div id="result"></div>
+<br><br>
+
+<button class="button"onclick="take_snapshot();">Capture Image</button>
+<br><br>
+<button class="button"onclick="check();">Identify Image</button>
+<br><br>
+
+<p style="fontsize: 22px">Object: <span id="Result_object_name"></span></p>
+<p style="fontsize: 22px">Accuracy: <span id="result_object_accuracy"></span></p>
+
+</center>
+</div>
+<script src="main.js"></script>
+    </body>
+
+
+</head>
+
+</html>
